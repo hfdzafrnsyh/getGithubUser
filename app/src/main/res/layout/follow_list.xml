@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    android:padding="5dp"
+    android:background="@drawable/card_background"
+    android:id="@+id/follow_list">
+
+
+
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@color/cardview_dark_background"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="24dp"
+        android:id="@+id/img_follow_avatar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp" />
+    <TextView
+        android:id="@+id/tv_follow_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@+id/img_follow_avatar"
+        android:layout_marginStart="24dp"
+        app:layout_constraintStart_toEndOf="@+id/img_follow_avatar"
+        android:textSize="16sp"
+        android:text="@string/username_user"
+        android:textStyle="normal"
+        android:textColor="@color/colorTextBlue" />
+
+    <TextView
+        android:id="@+id/tv_follow_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/name_user"
+        android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+        app:layout_constraintTop_toBottomOf="@+id/tv_follow_username"
+        app:layout_constraintStart_toStartOf="@+id/tv_follow_username"
+        android:textSize="14sp" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">GetGithubUser</string>
+    <string name="name_user">name</string>
+    <string name="username_user">username_user</string>
+    <string name="language">Language</string>
+    <string name="search">search</string>
+    <string name="search_hint">Search User</string>
+    <string name="search_user">Search User</string>
+    <string name="tab_1">Followers</string>
+    <string name="tab_2">Following</string>
+    <string name="tab_repo">Repo</string>
+
+
+    <string name="content_tab_followers">Hello Followers</string>
+    <string name="content_tab_following">Hello Following</string>
+    <string name="bio_user">bio :</string>
+    <string name="search_welcome">Search User on Github</string>
+    <string name="at">\@</string>
+
+</resources>

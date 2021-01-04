@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GetGithubUser</string>
+    <string name="name_user">imya</string>
+    <string name="username_user">imya pol zovatelya</string>
+    <string name="language">Yazyk</string>
+    <string name="search">poisk</string>
+    <string name="search_hint">Poisk pol zovatelya</string>
+    <string name="search_user">Poisk pol zovatelya</string>
+    <string name="tab_1">posledovatel</string>
+    <string name="tab_2">sleduyushchiy</string>
+    <string name="tab_repo">khranilishche</string>
+
+
+    <string name="content_tab_followers">Privet, posledovateli</string>
+    <string name="content_tab_following">Privet sleduyushchiy</string>
+    <string name="bio_user">biografiya :</string>
+    <string name="search_welcome">Poisk pol zovatelya na Github</string>
+    <string name="at">\@</string>
+
+</resources>

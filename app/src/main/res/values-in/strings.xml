@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GetGithubUser</string>
+    <string name="name_user">nama</string>
+    <string name="username_user">user username</string>
+    <string name="language">Bahasa</string>
+    <string name="search">cari</string>
+    <string name="search_hint">Cari User</string>
+    <string name="search_user">Cari User</string>
+    <string name="tab_1">Pengikut</string>
+    <string name="tab_2">Mengikuti</string>
+    <string name="tab_repo">Gudang</string>
+
+
+
+    <string name="content_tab_followers">Hallo Pengikut</string>
+    <string name="content_tab_following">Hallo Mengikuti</string>
+    <string name="bio_user">bio :</string>
+    <string name="search_welcome">Cari User Github</string>
+    <string name="at">\@</string>
+
+</resources>

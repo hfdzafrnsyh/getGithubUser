@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:fillViewport="true"
+    tools:context=".DetailUserActivity">
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_2"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:alpha="0.8"
+        />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    >
+
+
+<de.hdodenhof.circleimageview.CircleImageView
+    android:id="@+id/imgAvatarDetail"
+    android:layout_width="160dp"
+    android:layout_height="160dp"
+    android:layout_gravity="center"
+    android:layout_marginBottom="12dp"
+    />
+
+    <TextView
+        android:id="@+id/tvNameDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name_user"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/tvUsernameDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/username_user"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/tvBio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bio_user"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tvBioDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bio_user"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:gravity="center"
+        />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+
+
+
+
+
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tl_tabs_"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            app:tabTextColor="@android:color/white"/>
+
+
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
